@@ -1,8 +1,8 @@
-﻿$someEmptyDir = "C:\Users\mislambo\OneDrive - Western Alliance Bank\Desktop\Empty" #empty directory
-$deleteFile = "C:\Users\mislambo\OneDrive - Western Alliance Bank\Desktop\Hello" #directory that files will be deleted
+﻿$someEmptyDir = "C:\Dir\that\is\empty" #empty directory
+$deleteFile = "C:\files\you\want\deleted" #directory that files will be deleted
 
-$moveFile = "C:\Users\mislambo\OneDrive - Western Alliance Bank\Desktop\Move"
-$copiedFiles = "C:\Users\mislambo\OneDrive - Western Alliance Bank\Desktop\Copied"
+$moveFile = "C:\files\you\want\moved"
+$copiedFiles = "C:\directory\you\want\copied\files"
 
 
 robocopy $someEmptyDir $deleteFile /mir /mt:32 #alt. remove-item
